@@ -3,7 +3,7 @@ import { jobsDummyData } from '@/utils/dummyData';
 import CommonTable from '@/components/common/CommonTable';
 import { adminFetchAllJobs } from '@/utils/apis/adminApi';
 import type { UserfetchAllJobsResponse } from '@/types/apiTypes/user';
-import { UserJobsTableColumns } from '@/components/table/tableColumns/UserTableColumns';
+import { UserJobsTableColumns } from '@/components/table/tableColumns/UserJobsColumns';
 
 const UserJobs: React.FC = () => {
     return (
